@@ -1,0 +1,55 @@
+/*
+    Jednostki:
+        vw - vieport width - szerokość całej przeglądarki w %
+        px- piksele
+        % - % elementu nadrzędnego
+    
+    Style:
+        width - szerokość,
+        height - wysokość,
+        margin - margines zewnętrzny,
+        padding - margines wewnętrzny,
+        border - obramókwa elementu,
+        border-radius - zaokrąglanie obramówki
+        font-weight - grubość czcionki,
+        font-family - rodzaj czcionki,
+        font-size - rozmiar czcionki,
+        text-align - pozycjonowanie tekstu,
+        color - kolor czcionki,
+        background - kolor tła.
+*/
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.login__container{
+    width: 20vw;
+    border: 1px solid gray;
+    margin: 5vh auto;
+    padding: 15px;
+}
+
+.login__title{
+    font-weight: 300;
+    text-align: center;
+}
+
+.login__input{
+    width: 100%;
+}
+
+.login__label{
+    margin-top: 15px;
+    display: block;
+}
+
+.login__submit{
+    width: 100%;
+    color: white;
+    margin-top: 15px;
+    border: none;
+    border-radius: 15px;
+    background: darkslategray;
+    padding: 10px 0;
+}
