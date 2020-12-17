@@ -1,0 +1,65 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.navbar{
+    width: 100%;
+    background: #2e693f;
+    margin-bottom: 5vh;
+    padding: 15px 0;
+}
+
+.navbar__links{
+    margin: 0;
+    list-style-type: none;
+}
+
+.navbar__link{
+    display: inline; /* Ten styl powoduje ułożenie elementów listy w jednej lini  */
+    padding: 0 15px;
+}
+
+.navbar__link-link{
+    color: white;
+    text-decoration: none;
+}
+
+.offers__container{
+    display: flex; /* Tworzenie flexbox'a */
+    flex-direction: row; /* Określenie kierunku ustawienia elementów */
+    justify-content: center; /* Ułożenie elementów w flexbox'ie */
+}
+
+.offers__item{
+    width: 20vw;
+    border: 2px solid #2e693f;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.offers__item-middle{
+    margin: 0 10vw;
+}
+
+.offers__item-title{
+    text-align: center;
+}
+
+.offers__item-price{
+    text-align: center;
+}
+
+.offers__item-content{
+    text-align: justify;
+}
+
+.offers__item-select{
+    cursor: pointer; /* Zmiana kursora */
+    color: white;
+    background: #2e693f;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px 0;
+}
